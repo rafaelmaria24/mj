@@ -1,0 +1,42 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: black;
+height: 30px;
+display: flex;
+  justify-content: space-between;
+ /* background: linear-gradient(skyblue, green) no-repeat;
+  background-image: url("https://t4.ftcdn.net/jpg/02/32/92/55/360_F_232925587_st4gM8b3TJHtjjddCIUNyVyFJmZqMmn4.jpg"); */
+}
+nav a{
+  color: white;
+  text-decoration: none;
+  margin: auto;
+}
+  /* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+.galeria{
+  width:200px;
+  }
+
+
+    
